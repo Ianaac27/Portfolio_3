@@ -6,7 +6,7 @@ class App extends React.Component {
 //rendering into HTML format  
 render() {
   return (
-    <div className="container">
+    <div>
       <MainBody />
     </div>
   );

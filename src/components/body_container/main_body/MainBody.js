@@ -1,10 +1,14 @@
 import React from "react";
 import Introduction from "./Introduction";
+import AboutMe from "./AboutMe";
 // import "../styles/Body.css";
 
 function MainBody() {
     return (
-        <Introduction />
+        <main>
+            <Introduction />
+            <AboutMe />
+        </main>
     )
 }
 
