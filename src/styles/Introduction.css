@@ -1,0 +1,64 @@
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.portfolio-img { 
+    box-shadow: 15px 5px 30px var(--clr-dark);
+    width: 250px;
+    z-index: 2;    
+}
+
+h1, h2, h3 {
+    line-height: 1;
+    margin: 0;
+}
+
+h1 { 
+    font-size: var(--fs-h1);
+ }
+h2 { font-size: var(--fs-h2); }
+h3 { font-size: var(--fs-h3); }
+
+section { padding: 5em 2em; }
+
+.section-title {
+    margin-bottom: .25em;
+    font-size: var(--fs-h1);
+}
+
+.para-subtitle {
+    margin: 0;
+    font-size: var(--fs-h3); 
+}
+
+.para-subtitle-accent {
+    background: var(--clr-accent);
+    font-family: var(--ff-secondary);
+    color: var(--clr-light);
+    margin-bottom: 1em;
+    padding: .25em 1em;
+}
+
+#intro { position: relative; }
+
+.intro-info {
+    padding-left: 1.5em;
+    padding-bottom: 6em;
+}
+
+#para-subtitle-intro {
+    position: absolute;
+    width: 22.4em;
+    bottom: 3.4em;
+    left: 4.4em;
+    height: 2em;
+    text-align: right;
+    font-size: 35px;
+}
