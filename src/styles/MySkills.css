@@ -1,0 +1,21 @@
+#skill {
+    margin-top: -6em;
+}
+
+#skill-row {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#skill-title {
+    text-align: center;
+    margin-bottom: .15em;
+}
+
+.skill-icon {
+    font-size: 3em;
+    color: var(--clr-silver);
+    margin: 25px 25px 0px 0px;
+    text-decoration: none;
+}
