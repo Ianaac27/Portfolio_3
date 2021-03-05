@@ -1,19 +1,30 @@
 import React from "react";
+import "../styles/Header.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+// import resume_pdf from "../images/Ian_Fleshman-Cooper_Resume.pdf";
 
-<header>
-<div>
-    <h1 id="today-date"></h1>
-</div>
-<button class="nav-toggle fas fa-bars" aria-label="toggle navigation">
-</button>
-<nav class="nav">
-    <ul class="navlinks">
-        <li class="nav-link"><a href="index.html">Home</a></li>
-        <li class="nav-link"><a href="#aboutMe">About Me</a></li>
-        <li class="nav-link"><a href="#work">Work</a></li>
-        <li class="nav-link"><a href="#skill">Skills</a></li>
-        <li class="nav-link"><a href="#contactMe">Contact Me</a></li>
-        <li class="nav-link"><a href="assets/Ian Fleshman-Cooper_ Resume.pdf" download="assets/resume">Resume</a></li>
-    </ul>
-</nav>
-</header>
+function Header({handleNavbarModule, handleNavbarLink}) {
+    return (
+        <header>
+            <div>
+                <h1 id="today-date"></h1>
+            </div>
+            <button className="nav-toggle" aria-label="toggle navigation" onClick={handleNavbarModule}>
+                <FontAwesomeIcon icon={faBars} />
+            </button>
+            <nav className="nav">
+                <ul className="navlinks">
+                    <li className="nav-link" onClick={handleNavbarLink}><a href="index.html">Home</a></li>
+                    <li className="nav-link" onClick={handleNavbarLink}><a href="#aboutMe">About Me</a></li>
+                    <li className="nav-link" onClick={handleNavbarLink}><a href="#work">Work</a></li>
+                    <li className="nav-link" onClick={handleNavbarLink}><a href="#skill">Skills</a></li>
+                    <li className="nav-link" onClick={handleNavbarLink}><a href="#contactMe">Contact Me</a></li>
+                    <li className="nav-link" onClick={handleNavbarLink}><a href="../images/Ian_Fleshman-Cooper_Resume.pdf" download="Ian_Fleshman-Cooper_Resume.pdf">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+    )
+}
+
+export default Header;

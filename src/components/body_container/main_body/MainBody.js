@@ -3,7 +3,6 @@ import Introduction from "./Introduction";
 import AboutMe from "./AboutMe";
 import MyWork from "./MyWork";
 import MySkills from "./MySkills";
-import Footer from "../../Footer";
 
 
 function MainBody() {
@@ -13,7 +12,6 @@ function MainBody() {
             <AboutMe />
             <MyWork />
             <MySkills />
-            <Footer />
         </main>
     )
 }
