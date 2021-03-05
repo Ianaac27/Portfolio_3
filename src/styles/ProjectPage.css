@@ -1,0 +1,76 @@
+.project-main {
+    display: flex;
+    margin-top: 3em;
+}
+.project-left {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    width: 60%;
+    padding-left: 2em;
+    padding-top: 2em;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+
+#project-title {color: var(--clr-silver);}
+
+#project-sub {
+    margin: 0px 12em 1em 0;
+    height: 2.5em;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 1.5em;
+}
+
+.para-project {
+    margin: 12px 9% 4px 0%;
+}
+
+.project-right {
+    background: var(--clr-light);
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+
+.project-item {
+    box-shadow: 15px 5px 30px var(--clr-dark);
+    width: 38em;
+    height: 24.5em;
+    z-index: 2;
+    margin-top: -4em;
+}
+
+#project-img {
+    width: 100%;
+    height: 100%;
+}
+
+.project-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3.5em;
+}
+
+.project-url {
+font-style: var(--ff-primary);
+font-size: var(--fs-h2);
+color: var(--clr-dark);
+}
+
+.project-url:hover {
+    color: var(--clr-accent);
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+.url-icon {
+    color: var(--clr-silver);
+    margin-left: 10px;
+}
+
+.url-icon:hover {
+    color: var(--clr-accent);
+}

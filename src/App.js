@@ -5,6 +5,14 @@ import Footer from "./components/Footer";
 
 class App extends React.Component {
 
+  // state = {
+  //   currentPage: "Home"
+  // };
+
+  // handlePageChange = page => {
+  //   this.setState({ currentPage: page });
+  // };
+
 handleNavbarModule = event => {  
     document.body.classList.toggle('nav-open');
 }
@@ -12,6 +20,18 @@ handleNavbarModule = event => {
 handleNavbarLink = event => {
     document.body.classList.remove('nav-open');
 }
+
+// renderPage= () => {
+//   if (this.state.currentPage === "Home") {
+//     return <Home />;
+//   } else if (this.state.currentPage === "About") {
+//     return <About />;
+//   } else if (this.state.currentPage === "Blog") {
+//     return <Blog />;
+//   } else {
+//     return <Contact />;
+//   }
+// }
 
 //rendering into HTML format  
 render() {
