@@ -5,7 +5,7 @@ import MyWork from "./MyWork";
 import MySkills from "./MySkills";
 
 
-function MainBody() {
+function Home() {
     return (
         <main>
             <Introduction />
@@ -16,4 +16,4 @@ function MainBody() {
     )
 }
 
-export default MainBody;
+export default Home;

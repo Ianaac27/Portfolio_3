@@ -1,9 +1,9 @@
 import React from "react";
-import "../../../../styles/ProjectPage.css";
+import "../../../styles/ProjectPage.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
-import password_gen_img from "../../../../images/project_images/password.jpg";
+import password_gen_img from "../../../images/project_images/password.jpg";
 
 function Project2() {
     return (

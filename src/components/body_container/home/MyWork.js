@@ -23,38 +23,38 @@ function MyWork() {
             <p className="para-subtitle" id="work-sub">Take a look at my featured projects</p>
             <div className="works">
                 <div className="work-row" id="top-row">
-                    <a href="planner.html" className="work-item" id="item-one">
+                    <a href="/project1" className="work-item" id="item-one">
                         <img className="work-img" src={project1}/>
                     </a>
-                    <a href="password-gen.html" className="work-item" id="item-two">
+                    <a href="/project2" className="work-item" id="item-two">
                         <img className="work-img" src={project2}/>
                     </a>
-                    <a href="weather.html" className="work-item" id="item-three">
+                    <a href="/project3" className="work-item" id="item-three">
                         <img className="work-img" src={project3}/>
                     </a>
-                    <a href="game-gif.html" className="work-item" id="item-four">
+                    <a href="/project4" className="work-item" id="item-four">
                         <img className="work-img" src={project4}/>
                     </a>
                 </div>
                 <div className="work-row" id="middle-row">
-                    <a href="employee_summary.html" className="work-item" id="item-five">
+                    <a href="/project5" className="work-item" id="item-five">
                         <img className="work-img" src={project5}/>
                     </a>
-                    <a href="read_me.html" className="work-item" id="item-six">
+                    <a href="/project6" className="work-item" id="item-six">
                         <img className="work-img" src={project6}/>
                     </a>
-                    <a href="note_taker.html" className="work-item" id="item-seven">
+                    <a href="/project7" className="work-item" id="item-seven">
                         <img className="work-img" src={project7}/>
                     </a>  
-                    <a href="employee_tracker.html" className="work-item" id="item-eight">
+                    <a href="/project8" className="work-item" id="item-eight">
                         <img className="work-img" src={project8}/>
                     </a>
                 </div>
                 <div className="work-row" id="bottom-row">
-                    <a href="burger_devourer.html" className="work-item" id="item-nine">
+                    <a href="/project9" className="work-item" id="item-nine">
                         <img className="work-img" src={project9}/>
                     </a>
-                    <a href="neighborhood.html" className="work-item" id="item-ten">
+                    <a href="/project10" className="work-item" id="item-ten">
                         <img className="work-img" src={project10}/>
                     </a>
                 </div>

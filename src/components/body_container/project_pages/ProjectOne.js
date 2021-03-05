@@ -1,9 +1,9 @@
 import React from "react";
-import "../../../../styles/ProjectPage.css";
+import "../../../styles/ProjectPage.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
-import daily_planner_img from "../../../../images/project_images/daily-planner.jpg";
+import daily_planner_img from "../../../images/project_images/daily-planner.jpg";
 
 function Project1() {
     return (
