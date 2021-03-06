@@ -1,0 +1,476 @@
+@media screen and (max-width:1400px){
+    .project-links {
+        padding-top: 2.3em;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .project-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 3.6em;
+    }
+
+    .project-url {
+        font-style: var(--ff-primary);
+        font-size: var(--fs-h2);
+        margin-top: 10px;
+    }
+
+    #contactMe {
+        width: 105%;
+    }
+
+    .project-item {
+        width: 29em;
+        height: 18.5em;
+    }
+
+    #project-sub {
+        margin: 0px 9em 1em 0;
+    }
+}
+
+@media screen and (max-width:1199px){
+    .intro-info {
+        padding-left: 1.5em;
+        padding-bottom: 6em;
+    }
+    
+    #para-subtitle-intro {
+        position: absolute;
+        width: 22.8em;
+        bottom: 3.3em;
+        left: 1.5em;
+        height: 2em;
+        text-align: right;
+        font-size: 35px;
+    }
+
+    #about-me-section {
+        padding: 2em 3em;
+    }
+}
+
+@media screen and (max-width:1070px){
+
+    .project-main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+        justify-content: center;
+        align-items: center;
+    }
+     .project-left {
+        width: 105%;
+        padding-bottom: 2.5em;
+    }
+
+    .project-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 4em;
+    }
+
+    .project-url {
+        font-style: var(--ff-primary);
+        font-size: var(--fs-h2);
+        margin-top: 20px;
+    }
+
+    #contactMe {
+        width: 105%;
+    }
+
+    .project-right {
+        padding-top: 10em;
+    }
+
+    .project-item {
+        width: 54em;
+        height: 36.5em;
+    }
+
+    .work-item {
+        height: 9em;
+        width: 10em;
+    }
+}
+
+@media screen and (max-width:1041px){
+    #about-me-sub {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width:991px){
+    .section-title {
+        margin-bottom: .25em;
+        font-size: 2em;
+    }
+    
+    #para-subtitle-intro {
+        position: absolute;
+        width: 26.6em;
+        bottom: 7em;
+        left: .7em;
+        height: 2em;
+        text-align: right;
+        font-size: 24px;
+    }
+
+    #about-me-section {
+        padding: 2em 0;
+    }
+
+    .project-item {
+        width: 22em;
+        height: 14.5em;
+    }
+
+    .project-url {
+        font-style: var(--ff-primary);
+        font-size: var(--fs-h2);
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:800px){
+    #about-me-sub {
+        font-size: 1em;
+    }
+
+    .project-item {
+        width: 35em;
+        height: 23.5em;
+    }
+
+    .project-left {
+        width: 105%;
+    }
+
+    #project-title {
+        text-align: center;
+    }
+
+    #project-sub {
+        margin: 0px 0em 0em 0em;
+    }
+
+    .para-project {
+        margin: 12px 1% 4px 1%;
+    }
+
+    .project-links {
+        padding-top: 1em;
+    }
+}
+
+@media screen and (max-width:767.5px){
+    #intro {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro-info {
+        padding-bottom: 3em;
+    }
+
+    .section-title {
+        margin-bottom: .25em;
+        font-size: 2.5em;
+        text-align: center;
+    }
+    
+    #para-subtitle-intro {
+        position: absolute;
+        width: 21.7em;
+        bottom: 21em;
+        left: 4.75em;
+        height: 2em;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #about-me-sub {
+        margin: 0px 0em 0em 0;
+        height: 2.5em;
+        text-align: center;
+        padding-top: 8px;
+        font-size: 1em;
+    }
+    .para-about {
+        margin: 12px 5% 4px 6%;
+    }
+
+    .work-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .work-item {
+        height: 16em;
+        width: 24em;
+    }
+}
+
+@media screen and (max-width:575px){
+    #para-subtitle-intro {
+        position: absolute;
+        width: 21.7em;
+        bottom: 21em;
+        left: 5.75em;
+        height: 2em;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .para-about {
+        margin: 12px 7% 4px 8%;
+    }
+
+    .skill-icon {
+        font-size: 2em;
+        margin: 25px 20px 0px 0px;
+    }
+}
+
+@media screen and (max-width:565px){
+    #para-subtitle-intro {
+        left: 5.4em;
+    }
+    .project-item {
+        width: 29em;
+        height: 19.5em;
+    }
+}
+
+@media screen and (max-width:545px){
+    #para-subtitle-intro {
+        left: 4.7em;
+    }
+
+    .para-about {
+        margin: 12px 5% 4px 8%;
+    }
+}
+
+@media screen and (max-width:520.5px){
+    .section-title {
+        margin-bottom: .25em;
+        font-size: 2em;
+        text-align: center;
+        margin-right: .5em;
+    }
+    
+    #para-subtitle-intro {
+        position: absolute;
+        width: 19em;
+        bottom: 20.8em;
+        left: 4.7em;
+        height: 2em;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .para-about {
+        margin: 12px 5% 4px 7%;
+    }
+}
+
+@media screen and (max-width:465px){
+    #para-subtitle-intro {
+        left: 3.6em;
+    }
+    .project-item {
+        width: 25em;
+        height: 16.5em;
+    }
+}
+
+@media screen and (max-width:420px){
+    #para-subtitle-intro {
+        left: 2.5em;
+    }
+
+    .para-about {
+        margin: 12px 3% 4px 3%;
+    }
+
+    .project-right {
+        padding-top: 6em;
+    }
+
+    .skill-icon {
+        margin: 25px 10px 0px 0px;
+    }
+}
+
+@media screen and (max-width:393px){
+    #para-subtitle-intro {
+        position: absolute;
+        width: 20em;
+        bottom: 22.2em;
+        left: 1.5em;
+        height: 2em;
+        text-align: center;
+        font-size: 17px;
+    }
+    .project-item {
+        width: 21em;
+        height: 14.5em;
+    }
+} 
+
+@media screen and (max-width:376px){
+    .section-title {
+        margin-bottom: .25em;
+        font-size: 1.4em;
+        text-align: center;
+        margin-right: 1.5em;
+    }
+    #para-subtitle-intro {
+        left: 1.2em;
+        bottom: 19.3em;
+    }
+
+    #about-me-sub {
+        margin: 0px -1em 0em -1em;
+    }
+
+    .para-about {
+        margin: 12px 0% 4px 0%;
+    }
+
+    .work-item {
+        width: 22em;
+    }
+
+    section {
+        padding: 2em 2em;
+    }
+
+    .project-right {
+        padding-top: 6em;
+    }
+
+    #skill {
+        margin-top: -2em;
+    }
+}  
+
+@media screen and (max-width:361px){
+    .section-title {
+        margin-bottom: .25em;
+        font-size: 1.2em;
+        text-align: center;
+        margin-right: 1.5em;
+    }
+    
+    #para-subtitle-intro {
+        position: absolute;
+        width: 18.5em;
+        bottom: 19.4em;
+        left: 1.25em;
+        height: 2em;
+        text-align: center;
+        font-size: 17px;
+    }
+    
+    .para-about {
+        margin: 12px -3% 4px -3%;
+    }
+
+    .work-item {
+        width: 20em;
+        height: 15em;
+    }
+
+    .icon-item {
+        font-size: 1em;
+    }
+
+    
+}
+
+@media screen and (max-width:350px){
+    #para-subtitle-intro {
+        left: 1em;
+    }
+
+    #about-me-sub {
+        font-size: .8em;
+    }
+
+    .para-about {
+        margin: 12px -3% 4px -1%;
+    }
+
+    .project-item {
+        width: 16em;
+        height: 11.5em;
+    }
+
+    .project-url {
+        font-size: 1.5em;
+    }
+
+    #project-sub {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width:320px){
+    #para-subtitle-intro {
+        left: .15em;
+    }
+
+    .para-subtitle {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width:300px){
+    #about-me-sub {
+        font-size: .7em;
+    }
+
+    #para-subtitle-intro {
+        left: -.85em;
+    }
+
+    #today-date {
+        margin-left: 0.2em;
+    }
+
+    .nav-toggle {
+        right: 0em;
+    }
+    .work-item {
+        width: 17em;
+        height: 12em;
+    }
+
+    .icon-item {
+        margin: 0px 21px 22px;
+    }
+
+    #project-sub {
+        font-size: 1em;
+    }
+
+    #email {
+        font-size: 1em;
+    }
+
+    .skill-icon {
+        margin: 25px 4px 0px 0px;
+    }
+}

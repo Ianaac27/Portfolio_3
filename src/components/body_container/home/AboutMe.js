@@ -1,5 +1,6 @@
 import React from "react";
 import "../../../styles/AboutMe.css";
+import "../../../styles/Responsive.css";
 
 function AboutMe() {
     return (
