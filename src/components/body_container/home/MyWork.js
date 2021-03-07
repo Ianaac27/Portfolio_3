@@ -1,6 +1,5 @@
 import React from "react";
 import "../../../styles/MyWork.css";
-import "../../../styles/Responsive.css";
 import {Link } from 'react-router-dom';
 
 //Import Project Photos

@@ -1,6 +1,5 @@
 import React from "react";
 import "../../../styles/MySkills.css";
-import "../../../styles/Responsive.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJsSquare } from '@fortawesome/free-brands-svg-icons'
 import { faCss3Alt } from '@fortawesome/free-brands-svg-icons'

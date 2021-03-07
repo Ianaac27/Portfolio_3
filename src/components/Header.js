@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Header.css";
-import "../styles/Responsive.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 // import resume_pdf from "../images/Ian_Fleshman-Cooper_Resume.pdf";

@@ -1,6 +1,5 @@
 import React from "react";
 import "../../../styles/ProjectPage.css";
-import "../../../styles/Responsive.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';

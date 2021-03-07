@@ -1,6 +1,5 @@
 import React from "react";
 import "../../../styles/Introduction.css";
-import "../../../styles/Responsive.css";
 import profile_image from "../../../images/profile.jpg";
 
 function Introduction() {
