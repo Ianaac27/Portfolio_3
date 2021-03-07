@@ -3,12 +3,16 @@ import "../styles/Header.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 // import resume_pdf from "../images/Ian_Fleshman-Cooper_Resume.pdf";
+import Moment from 'react-moment';
+
 
 function Header({handleNavbarModule, handleNavbarLink}) {
+    // const unixTimestamp = Date.now;
+    
     return (
         <header>
             <div>
-                <h1 id="today-date"></h1>
+                <Moment local interval={1000} id="today-date"></Moment>
             </div>
             <button className="nav-toggle" aria-label="toggle navigation" onClick={handleNavbarModule}>
                 <FontAwesomeIcon icon={faBars} />
