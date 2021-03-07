@@ -7,12 +7,11 @@ import Moment from 'react-moment';
 
 
 function Header({handleNavbarModule, handleNavbarLink}) {
-    // const unixTimestamp = Date.now;
     
     return (
         <header>
-            <div>
-                <Moment local interval={1000} id="today-date"></Moment>
+            <div id="today-date">
+                <Moment local interval={1000}></Moment>
             </div>
             <button className="nav-toggle" aria-label="toggle navigation" onClick={handleNavbarModule}>
                 <FontAwesomeIcon icon={faBars} />
@@ -24,7 +23,7 @@ function Header({handleNavbarModule, handleNavbarLink}) {
                     <li className="nav-link" onClick={handleNavbarLink}><a href="/#work">Work</a></li>
                     <li className="nav-link" onClick={handleNavbarLink}><a href="/#skill">Skills</a></li>
                     <li className="nav-link" onClick={handleNavbarLink}><a href="/#contactMe">Contact Me</a></li>
-                    <li className="nav-link" onClick={handleNavbarLink}><a href="../images/Ian_Fleshman-Cooper_Resume.pdf" download="Ian_Fleshman-Cooper_Resume.pdf">Resume</a></li>
+                    <li className="nav-link" onClick={handleNavbarLink}><a href="Ian_Fleshman-Cooper_Resume.pdf" download="Ian_Fleshman-Cooper_Resume.pdf">Resume</a></li>
                 </ul>
             </nav>
         </header>
