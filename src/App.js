@@ -33,19 +33,19 @@ render() {
       <Router>
         <Header handleNavbarLink= {this.handleNavbarLink} handleNavbarModule= {this.handleNavbarModule} />
           <Switch>
-            <Route exact path="/">
+            <Route exact path="Portfolio_3/">
               <Home />
             </Route>
-            <Route path="/workday_scheduler"><Project1 /></Route>
-            <Route path="/password_generator"><Project2 /></Route>
-            <Route path="/weather_dashboard"><Project3 /></Route>
-            <Route path="/game_gif"><Project4 /></Route>
-            <Route path="/employee_team_summary"><Project5 /></Route>
-            <Route path="/read_me_generator"><Project6 /></Route>
-            <Route path="/note_taker"><Project7 /></Route>
-            <Route path="/employee_tracker"><Project8 /></Route>
-            <Route path="/burger_devourer"><Project9 /></Route>
-            <Route path="/neighborhood"><Project10 /></Route>
+            <Route path="Portfolio_3/workday_scheduler"><Project1 /></Route>
+            <Route path="Portfolio_3/password_generator"><Project2 /></Route>
+            <Route path="Portfolio_3/weather_dashboard"><Project3 /></Route>
+            <Route path="Portfolio_3/game_gif"><Project4 /></Route>
+            <Route path="Portfolio_3/employee_team_summary"><Project5 /></Route>
+            <Route path="Portfolio_3/read_me_generator"><Project6 /></Route>
+            <Route path="Portfolio_3/note_taker"><Project7 /></Route>
+            <Route path="Portfolio_3/employee_tracker"><Project8 /></Route>
+            <Route path="Portfolio_3/burger_devourer"><Project9 /></Route>
+            <Route path="Portfolio_3/neighborhood"><Project10 /></Route>
           </Switch>
         <Footer />
       </Router>
