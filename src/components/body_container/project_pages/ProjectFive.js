@@ -3,7 +3,7 @@ import "../../../styles/ProjectPage.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
-import password_gen_img from "../../../images/project_images/password.jpg";
+import team_summary_img from "../../../images/project_images/team_summary_1.jpg";
 
 function Project5() {
     return (
@@ -18,7 +18,7 @@ function Project5() {
               
               <section className="project-right">
                   <div className="project-item">
-                      <a href="https://drive.google.com/file/d/1SZ1SxMxBqum1wyx8Ey3jFJGesAiTLqfe/view"><img className="portfolio-img" id="project-img" src={password_gen_img} alt=""/></a>
+                      <a href="https://drive.google.com/file/d/1SZ1SxMxBqum1wyx8Ey3jFJGesAiTLqfe/view"><img className="portfolio-img" id="project-img" src={team_summary_img} alt=""/></a>
                   </div>
                   <div className="project-links">
                       <a className="project-url" href="https://drive.google.com/file/d/1SZ1SxMxBqum1wyx8Ey3jFJGesAiTLqfe/view">Tutorial
