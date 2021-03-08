@@ -36,7 +36,7 @@ render() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/daily_planner"><Project1 /></Route>
+            <Route path="/workday_scheduler"><Project1 /></Route>
             <Route path="/password_generator"><Project2 /></Route>
             <Route path="/weather_dashboard"><Project3 /></Route>
             <Route path="/game_gif"><Project4 /></Route>

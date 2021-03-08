@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Header.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-// import resume_pdf from "../images/Ian_Fleshman-Cooper_Resume.pdf";
+import pdf from '../pdf/ian_fcooper_resume.pdf'
 import Moment from 'react-moment';
 
 
@@ -23,7 +23,7 @@ function Header({handleNavbarModule, handleNavbarLink}) {
                     <li className="nav-link" onClick={handleNavbarLink}><a href="/#work">Work</a></li>
                     <li className="nav-link" onClick={handleNavbarLink}><a href="/#skill">Skills</a></li>
                     <li className="nav-link" onClick={handleNavbarLink}><a href="/#contactMe">Contact Me</a></li>
-                    <li className="nav-link" onClick={handleNavbarLink}><a href="Ian_Fleshman-Cooper_Resume.pdf" download="Ian_Fleshman-Cooper_Resume.pdf">Resume</a></li>
+                    <li className="nav-link" onClick={handleNavbarLink}><a href={pdf}>Resume</a></li>
                 </ul>
             </nav>
         </header>

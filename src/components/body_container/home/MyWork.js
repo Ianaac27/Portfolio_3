@@ -24,7 +24,7 @@ function MyWork() {
             <p className="para-subtitle" id="work-sub">Take a look at my featured projects</p>
             <div className="works">
                 <div className="work-row" id="top-row">
-                    <Link to="/daily_planner" className="work-item" id="item-one">
+                    <Link to="/workday_scheduler" className="work-item" id="item-one">
                         <img className="work-img" src={project1}/>
                     </Link>
                     <Link to="/password_generator" className="work-item" id="item-two">
