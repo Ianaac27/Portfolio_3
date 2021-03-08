@@ -24,13 +24,13 @@ Ianaac27
 Here are mocks of Portfolio 3.0.
 
 Home Page
-![portfolio_3](assets/screenshot.png)
+![Portfolio_3](src/images/screenshots/screenshot.png)
 
 Navigation Menu
-![portfolio_3](assets/screenshot2.png)
+![Portfolio_3](src/images/screenshots/screenshot2.png)
 
 Project Page
-![portfolio_3](assets/screenshot3.png)
+![Portfolio_3](src/images/screenshots/screenshot3.png)
 
 # Link
 Take a look at the live version [here] deployed through Heroku.(https://portfolio-react-ifc.herokuapp.com/)
