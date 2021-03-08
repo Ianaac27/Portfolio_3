@@ -36,16 +36,16 @@ render() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/project1"><Project1 /></Route>
-            <Route path="/project2"><Project2 /></Route>
-            <Route path="/project3"><Project3 /></Route>
-            <Route path="/project4"><Project4 /></Route>
-            <Route path="/project5"><Project5 /></Route>
-            <Route path="/project6"><Project6 /></Route>
-            <Route path="/project7"><Project7 /></Route>
-            <Route path="/project8"><Project8 /></Route>
-            <Route path="/project9"><Project9 /></Route>
-            <Route path="/project10"><Project10 /></Route>
+            <Route path="/daily_planner"><Project1 /></Route>
+            <Route path="/password_generator"><Project2 /></Route>
+            <Route path="/weather_dashboard"><Project3 /></Route>
+            <Route path="/game_gif"><Project4 /></Route>
+            <Route path="/employee_team_summary"><Project5 /></Route>
+            <Route path="/read_me_generator"><Project6 /></Route>
+            <Route path="/note_taker"><Project7 /></Route>
+            <Route path="/employee_tracker"><Project8 /></Route>
+            <Route path="/burger_devourer"><Project9 /></Route>
+            <Route path="/neighborhood"><Project10 /></Route>
           </Switch>
         <Footer />
       </Router>

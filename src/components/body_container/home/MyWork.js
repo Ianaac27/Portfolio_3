@@ -24,38 +24,38 @@ function MyWork() {
             <p className="para-subtitle" id="work-sub">Take a look at my featured projects</p>
             <div className="works">
                 <div className="work-row" id="top-row">
-                    <Link to="/project1" className="work-item" id="item-one">
+                    <Link to="/daily_planner" className="work-item" id="item-one">
                         <img className="work-img" src={project1}/>
                     </Link>
-                    <Link to="/project2" className="work-item" id="item-two">
+                    <Link to="/password_generator" className="work-item" id="item-two">
                         <img className="work-img" src={project2}/>
                     </Link>
-                    <Link to="/project3" className="work-item" id="item-three">
+                    <Link to="/weather_dashboard" className="work-item" id="item-three">
                         <img className="work-img" src={project3}/>
                     </Link>
-                    <Link to="/project4" className="work-item" id="item-four">
+                    <Link to="/game_gif" className="work-item" id="item-four">
                         <img className="work-img" src={project4}/>
                     </Link>
                 </div>
                 <div className="work-row" id="middle-row">
-                    <Link to="/project5" className="work-item" id="item-five">
+                    <Link to="/employee_team_summary" className="work-item" id="item-five">
                         <img className="work-img" src={project5}/>
                     </Link>
-                    <Link to="/project6" className="work-item" id="item-six">
+                    <Link to="/read_me_generator" className="work-item" id="item-six">
                         <img className="work-img" src={project6}/>
                     </Link>
-                    <Link to="/project7" className="work-item" id="item-seven">
+                    <Link to="/note_taker" className="work-item" id="item-seven">
                         <img className="work-img" src={project7}/>
                     </Link>  
-                    <Link to="/project8" className="work-item" id="item-eight">
+                    <Link to="/employee_tracker" className="work-item" id="item-eight">
                         <img className="work-img" src={project8}/>
                     </Link>
                 </div>
                 <div className="work-row" id="bottom-row">
-                    <Link to="/project9" className="work-item" id="item-nine">
+                    <Link to="/burger_devourer" className="work-item" id="item-nine">
                         <img className="work-img" src={project9}/>
                     </Link>
-                    <Link to="/project10" className="work-item" id="item-ten">
+                    <Link to="/neighborhood" className="work-item" id="item-ten">
                         <img className="work-img" src={project10}/>
                     </Link>
                 </div>
