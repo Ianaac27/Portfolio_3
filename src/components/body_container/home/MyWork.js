@@ -16,6 +16,10 @@ import project8 from "../../../images/project_images/employee_tracker.jpg";
 //Row 3
 import project9 from "../../../images/project_images/burgerd5.jpg";
 import project10 from "../../../images/project_images/neighborhood2.jpg";
+import project11 from "../../../images/project_images/workout_tracker1.jpg";
+//Row 4
+import project12 from "../../../images/project_images/budget_tracker.jpg";
+import project13 from "../../../images/project_images/employee_directory.jpg";
 
 function MyWork() {
     return (
@@ -51,12 +55,23 @@ function MyWork() {
                         <img className="work-img" src={project8}/>
                     </Link>
                 </div>
-                <div className="work-row" id="bottom-row">
+                <div className="work-row" id="middle-row-two">
                     <Link to="/burger_devourer" className="work-item" id="item-nine">
                         <img className="work-img" src={project9}/>
                     </Link>
+                    <Link to="/workout_tracker" className="work-item" id="item-eleven">
+                        <img className="work-img" src={project11}/>
+                    </Link>
                     <Link to="/neighborhood" className="work-item" id="item-ten">
                         <img className="work-img" src={project10}/>
+                    </Link>
+                </div>
+                <div className="work-row" id="bottom-row">
+                    <Link to="/budget_tracker" className="work-item" id="item-twelve">
+                        <img className="work-img" src={project12}/>
+                    </Link>
+                    <Link to="/employee_directory" className="work-item" id="item-thirteen">
+                        <img className="work-img" src={project13}/>
                     </Link>
                 </div>
             </div> 
