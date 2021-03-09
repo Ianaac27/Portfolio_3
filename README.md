@@ -33,7 +33,7 @@ Project Page
 ![Portfolio_3](src/images/screenshots/screenshot3.png)
 
 # Link
-Take a look at the live version [here] deployed through Heroku.(https://portfolio-react-ifc.herokuapp.com/)
+Take a look at the live version [here](https://portfolio-react-ifc.herokuapp.com/) deployed through Heroku.
 
 ## Questions
 
