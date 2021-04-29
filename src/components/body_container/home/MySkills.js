@@ -8,7 +8,7 @@ import { faBootstrap } from '@fortawesome/free-brands-svg-icons'
 import { faNode } from '@fortawesome/free-brands-svg-icons'
 import { faNpm } from '@fortawesome/free-brands-svg-icons'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { faDatabase, faGem } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -41,7 +41,10 @@ function MySkills() {
                     </i>
                     <i className="skill-icon">
                         <FontAwesomeIcon icon={faDatabase}/>
-                    </i>     
+                    </i> 
+                    <i className="skill-icon">
+                        <FontAwesomeIcon icon={faGem}/>
+                    </i>      
                  </div>
             </div> 
         </section>
