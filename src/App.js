@@ -19,7 +19,8 @@ import Project11 from "./components/body_container/project_pages/ProjectEleven";
 import Project12 from "./components/body_container/project_pages/ProjectTwelve";
 import Project13 from "./components/body_container/project_pages/ProjectThirteen";
 import Project14 from "./components/body_container/project_pages/ProjectFourteen";
-
+import Project15 from "./components/body_container/project_pages/ProjectFifteen";
+import Project16 from "./components/body_container/project_pages/ProjectSixteen";
 
 class App extends React.Component {
 
@@ -54,6 +55,8 @@ render() {
             <Route path="/budget_tracker"><Project12 /></Route>
             <Route path="/employee_directory"><Project13 /></Route>
             <Route path="/progressing"><Project14 /></Route>
+            <Route path="/ifc_forum"><Project15 /></Route>
+            <Route path="/book_search"><Project16 /></Route>
           </Switch>
         <Footer />
       </Router>
