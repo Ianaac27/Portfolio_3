@@ -13,7 +13,7 @@ function Footer() {
                 <a className="icon-item" href= "https://github.com/Ianaac27">
                     <FontAwesomeIcon icon={faGithub}/>
                 </a>
-                <a className="icon-item" href= "https://www.linkedin.com/in/ian-fleshman-cooper-934995163/">
+                <a className="icon-item" href= "https://www.linkedin.com/in/ian-fleshman-cooper/">
                     <FontAwesomeIcon icon={faLinkedin}/>
                 </a>
             </div>
